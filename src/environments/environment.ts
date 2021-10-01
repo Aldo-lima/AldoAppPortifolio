@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://appaldobackend.herokuapp.com'
+  baseUrl: 'https://appaldobackend.herokuapp.com'
  // baseUrl: 'http://localhost:8080/'
 
 
