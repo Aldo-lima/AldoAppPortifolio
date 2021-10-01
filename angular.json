@@ -11,7 +11,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "inlineTemplate": false,
-          "inlineStyle": false ,
+          "inlineStyle": false,
           "skipTests": true
         },
         "@schematics/angular:class": {
@@ -107,6 +107,13 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "bookstare-front:build"
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/AldoAppPortifolio/"
+
           }
         }
       }
